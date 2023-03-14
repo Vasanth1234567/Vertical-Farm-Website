@@ -1,1 +1,63 @@
-/* This is Style File */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: sans-serif,'Courier New', Courier, monospace;
+}
+.section1{
+    width: 100vw;
+    height: 480px;
+    background-color: black;
+    padding: 0px;
+}
+
+.image-logo{
+    width: 18%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    padding: 28px;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+.button1{
+    padding: 12px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.button2{
+    padding: 10px;
+    border-radius: 20px;
+    background: #e3f1c3;
+    color: black;
+    border: solid 1px white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button12{
+    padding: 12px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ul a:hover{
+    color: #f0ff9f;
+}
